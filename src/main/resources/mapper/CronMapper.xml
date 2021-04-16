@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangrui.mybatisplus.mapper.CronMapper">
+    <select id="getCronList" resultType="com.wangrui.mybatisplus.model.Cron">
+        select * from cron;
+    </select>
+<!--    <insert id="addUser" parameterType="org.sang.mybatis.model.User">-->
+<!--        insert into user (username,address) values (#{username},#{address});-->
+<!--    </insert>-->
+<!--    <update id="updateUserById" parameterType="org.sang.mybatis.model.User">-->
+<!--        update user set username=#{username},address=#{address} where id=#{id}-->
+<!--    </update>-->
+<!--    <delete id="deleteUserById">-->
+<!--        delete from user where id=#{id}-->
+<!--    </delete>-->
+</mapper>
